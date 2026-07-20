@@ -8,7 +8,7 @@ description: >
   the user says "take a look at this" or "what do you think of this."
 license: Apache-2.0
 metadata:
-  author: your-github-username
+  author: Omgiri01
   version: "1.0"
 ---
 

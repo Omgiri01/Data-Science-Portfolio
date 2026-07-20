@@ -1,6 +1,8 @@
 # 🌟 Ultimate Data Science, AI, & ML Portfolio
 
-Welcome to my comprehensive, production-grade portfolio! This repository showcases my expertise across a wide range of cutting-edge fields: **Generative AI, Large Language Models (LLMs), Agentic AI, Classical Machine Learning, Deep Learning, Computer Vision, Reinforcement Learning, and Physics-Informed Neural Networks (PINNs)**.
+**Author:** Om Giri | **GitHub:** [@Omgiri01](https://github.com/Omgiri01) | **Repository:** [Data-Science-Portfolio](https://github.com/Omgiri01/Data-Science-Portfolio)
+
+Welcome to my comprehensive, production-grade portfolio! This repository showcases my engineering work across a wide range of cutting-edge fields: **Generative AI, Large Language Models (LLMs), Agentic AI, Classical Machine Learning, Deep Learning, Computer Vision, Reinforcement Learning, and Physics-Informed Neural Networks (PINNs)**.
 
 ---
 
@@ -64,8 +66,8 @@ To explore or run any project locally:
 
 1. **Clone the Portfolio**:
    ```bash
-   git clone https://github.com/yourusername/data-science-portfolio.git
-   cd data-science-portfolio
+   git clone https://github.com/Omgiri01/Data-Science-Portfolio.git
+   cd Data-Science-Portfolio
    ```
 
 2. **Navigate & Setup**:

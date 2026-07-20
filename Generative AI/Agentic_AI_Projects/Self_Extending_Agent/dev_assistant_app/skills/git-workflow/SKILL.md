@@ -7,7 +7,7 @@ description: >
   commits, merging, rebasing, resolving conflicts, or setting up
   a Git workflow for a team or project.
 metadata:
-  author: your-github-username
+  author: Omgiri01
   version: "1.0"
 ---
 

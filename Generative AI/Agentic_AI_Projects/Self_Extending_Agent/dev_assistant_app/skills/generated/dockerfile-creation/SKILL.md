@@ -4,7 +4,7 @@ description: >
   Technical reference for creating Dockerfiles, including best practices and common instructions. Use when the user asks about Dockerfile creation, image building, or containerization.
 metadata:
   version: '1.0'
-  author: dev-assistant
+  author: Omgiri01
 ---
 
 ## 1. Executive Summary
@@ -33,7 +33,7 @@ Here's a quick reference for common Dockerfile instructions:
 | `ENTRYPOINT`| Configures a container that will run as an executable. | `ENTRYPOINT ["/usr/bin/cowsay"]` |
 | `ENV`       | Sets environment variables. | `ENV NODE_ENV=production` |
 | `ARG`       | Defines a build-time variable. | `ARG VERSION=1.0` |
-| `LABEL`     | Adds metadata to an image. | `LABEL maintainer="dev-assistant"` |
+| `LABEL`     | Adds metadata to an image. | `LABEL maintainer="Omgiri01"` |
 | `USER`      | Sets the user name or UID to use when running the image. | `USER node` |
 
 **`docker init`**: This command can analyze your project and quickly create a Dockerfile, a `compose.yaml`, and a `.dockerignore`, helping you get started with containerization.

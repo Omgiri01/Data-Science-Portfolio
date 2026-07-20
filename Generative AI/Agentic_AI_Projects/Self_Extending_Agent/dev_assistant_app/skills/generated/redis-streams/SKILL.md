@@ -4,7 +4,7 @@ description: >
   Technical reference for How do I use Redis Streams?. Use when the user asks about this topic.
 metadata:
   version: '1.0'
-  author: dev-assistant
+  author: Omgiri01
 ---
 
 ## 1. Executive Summary

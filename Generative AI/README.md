@@ -1,5 +1,7 @@
 # 🤖 Generative AI, RAG & Agentic Systems Portfolio
 
+**Author:** Om Giri ([@Omgiri01](https://github.com/Omgiri01)) | **Repository:** [Data-Science-Portfolio](https://github.com/Omgiri01/Data-Science-Portfolio)
+
 Welcome to my Generative AI, RAG, and Agentic Systems portfolio section. This workspace contains advanced implementations focusing on stateful multi-agent coordination, customized retrieval-augmented generation pipelines, local audio-video assistants, and custom LLM moderation models.
 
 ---

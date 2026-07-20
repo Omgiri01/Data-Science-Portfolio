@@ -1,5 +1,7 @@
 # 🧠 Deep Learning, Computer Vision & Physics-Informed AI Showcase
 
+**Author:** Om Giri ([@Omgiri01](https://github.com/Omgiri01)) | **Repository:** [Data-Science-Portfolio](https://github.com/Omgiri01/Data-Science-Portfolio)
+
 Welcome to my Deep Learning, Computer Vision, and Engineering AI portfolio section. This workspace contains advanced implementations focusing on **Physics-Informed Neural Networks (PINNs), structural stress surrogate modeling, neural autograd mechanics, real-time object tracking, and custom NLP transformers**.
 
 ---

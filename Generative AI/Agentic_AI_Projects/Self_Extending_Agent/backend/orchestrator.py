@@ -115,7 +115,7 @@ async def orchestrate_chat(user_message: str) -> AsyncGenerator[str, None]:
             f"  Technical reference for {user_message}. Use when the user asks about this topic.\n"
             f"metadata:\n"
             f"  version: '1.0'\n"
-            f"  author: dev-assistant\n"
+            f"  author: Omgiri01\n"
             f"---\n\n"
             f"## 1. Executive Summary\n"
             f"<What it is, what problem it solves, when to use it — from search results>\n\n"

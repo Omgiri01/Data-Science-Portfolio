@@ -58,7 +58,7 @@ def write_new_skill(skill_name: str, skill_md_content: str) -> dict:
                    Include specific keywords for agent matching.
       metadata:
         version: "1.0"
-        author: dev-assistant
+        author: Omgiri01
 
     REQUIRED BODY (Markdown after frontmatter) — must include ALL of:
       ## 1. Executive Summary
@@ -83,7 +83,7 @@ def write_new_skill(skill_name: str, skill_md_content: str) -> dict:
       asks about Redis, caching, pub/sub, in-memory storage, or key-value databases.
     metadata:
       version: "1.0"
-      author: dev-assistant
+      author: Omgiri01
     ---
 
     ## Overview

@@ -1,5 +1,7 @@
 # 📊 Data Science, Statistical Modeling & MLOps Showcase
 
+**Author:** Om Giri ([@Omgiri01](https://github.com/Omgiri01)) | **Repository:** [Data-Science-Portfolio](https://github.com/Omgiri01/Data-Science-Portfolio)
+
 Welcome to my Data Science, MLOps, and Predictive Analytics portfolio section. This workspace contains advanced implementations showing statistical asset modeling, real-time streaming engines, time-series anomaly classifiers, and automated surrogate models.
 
 ---
