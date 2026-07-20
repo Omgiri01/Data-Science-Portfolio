@@ -1,452 +1,606 @@
 <div align="center">
 
-# ⚡ Om Giri — AI & Data Science Engineering Portfolio
+# 🚀 Om Giri — AI & Data Science Portfolio
 
-### *Building Production-Grade Intelligent Systems at the Intersection of Research & Engineering*
+### *Building production-grade intelligence systems at the frontier of AI engineering*
 
-[![Author](https://img.shields.io/badge/Author-Om%20Giri-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omgiri01)
+<br/>
+
 [![GitHub](https://img.shields.io/badge/GitHub-Omgiri01-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omgiri01)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Data--Science-10B981?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/Omgiri01/Data-Science-Portfolio)
-[![License](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://langchain.com/)
 
-[![Total Projects](https://img.shields.io/badge/Total%20Projects-32-8B5CF6?style=flat-square&logo=git&logoColor=white)](https://github.com/Omgiri01/Data-Science-Portfolio)
-[![Generative AI](https://img.shields.io/badge/GenAI%20%26%20Agents-17%20Projects-EC4899?style=flat-square)](https://github.com/Omgiri01/Data-Science-Portfolio)
-[![Deep Learning](https://img.shields.io/badge/Deep%20Learning%20%26%20CV-11%20Projects-3B82F6?style=flat-square)](https://github.com/Omgiri01/Data-Science-Portfolio)
-[![Data Science](https://img.shields.io/badge/Data%20Science%20%26%20MLOps-4%20Projects-14B8A6?style=flat-square)](https://github.com/Omgiri01/Data-Science-Portfolio)
+<br/>
 
----
-
-*"From writing custom autograd engines from scratch to deploying production multi-agent agentic operating systems — this portfolio reflects depth over breadth, first principles over abstraction, and engineering excellence over prototyping."*
+```
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                  ║
+║     32 Projects  •  3 Core Domains  •  15+ Frameworks  •  Production-Grade       ║
+║                                                                                  ║
+║   🤖 Generative AI & Agentic Systems  ·  🧠 Deep Learning & Physics AI           ║
+║                    📊 Data Science & Predictive Analytics                         ║
+║                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 📖 Table of Contents
 
-| Section | Description |
-| :--- | :--- |
-| [🎯 Portfolio At a Glance](#-portfolio-at-a-glance) | Summary metrics and domain map |
-| [🏆 Flagship Projects](#-flagship-projects) | Deep-dive into top 5 standout projects |
-| [🤖 Generative AI & Agents (17)](#-generative-ai-llms--stateful-agentic-systems) | LLMs, RAG systems, multi-agent swarms |
-| [🧠 Deep Learning & Physics AI (11)](#-deep-learning-computer-vision--physics-ai) | CV, PINNs, FEA surrogates, GANs |
-| [📊 Data Science & MLOps (4)](#-data-science-predictive-analytics--mlops) | CFD surrogates, IoT analytics, finance |
-| [⚙️ Technology Matrix](#️-complete-technology-matrix) | Full stack of 40+ frameworks |
-| [🔬 Mathematical Foundations](#-mathematical--theoretical-foundations) | Core algorithms with formulations |
-| [📂 Repository Structure](#-repository-structure) | Full directory tree |
-| [🚀 Quick Start](#-quick-start) | Get running in 60 seconds |
-
----
-
-## 🎯 Portfolio At a Glance
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 🤖 Generative AI & Agents
-**17 Projects**
-
-`LangGraph` `LangChain` `Google ADK`  
-`Gemini 2.5` `LLaMA-3 QLoRA` `FAISS`  
-`ChromaDB` `FastAPI` `Docker`
-
-Multi-agent orchestration • Self-extending runtimes • Stateful RAG pipelines • LLM fine-tuning
-
-</td>
-<td width="33%" align="center">
-
-### 🧠 Deep Learning & CV
-**11 Projects**
-
-`PyTorch` `TensorFlow` `YOLOv8`  
-`CARLA Simulator` `OpenCV` `MTCNN`  
-`Gymnasium` `Stable-Baselines3`
-
-PINNs • FEA Surrogates • Deepfake Detection • RL Trading • GAN Image Synthesis
-
-</td>
-<td width="33%" align="center">
-
-### 📊 Data Science & MLOps
-**4 Projects**
-
-`Pandas` `Scikit-Learn` `OpenFOAM`  
-`Matplotlib` `SciPy` `XGBoost`  
-`ConvLSTM` `NumPy`
-
-CFD Surrogates • IoT RUL • Portfolio Opt. • Custom Search Engines
-
-</td>
-</tr>
-</table>
+- [Executive Summary](#-executive-summary)
+- [Portfolio Domain Map](#-portfolio-domain-map)
+- [Domain 1: Generative AI & Agentic Systems](#-domain-1-generative-ai-llms--agentic-systems-17-projects)
+- [Domain 2: Deep Learning, CV & Physics AI](#-domain-2-deep-learning-computer-vision--physics-ai-11-projects)
+- [Domain 3: Data Science & Predictive Engineering](#-domain-3-data-science-predictive-engineering--mlops-4-projects)
+- [Flagship Deep Dives](#-flagship-project-deep-dives)
+- [Technology Stack](#%EF%B8%8F-complete-technology-stack)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Author](#-author--contact)
 
 ---
 
-### 📈 Domain Breakdown
+## 🎯 Executive Summary
+
+This repository is the **master showcase** of my engineering work in **Artificial Intelligence, Machine Learning, and Data Science**. Every project is built from first principles — with mathematical rigor, clean architecture, and real-world applicability.
+
+<div align="center">
+
+| 🏷️ Domain | 🔢 Projects | 🔧 Primary Tools | 📌 Focus Areas |
+|:---:|:---:|:---:|:---|
+| 🤖 Generative AI & Agents | **17** | LangGraph, Google ADK, LLaMA-3 | LLM fine-tuning, multi-agent orchestration, RAG, agentic OS |
+| 🧠 Deep Learning & Physics AI | **11** | PyTorch, TensorFlow, CARLA | PINNs, FEA surrogates, computer vision, GANs, autograd |
+| 📊 Data Science & Engineering | **4** | Scikit-Learn, Pandas, OpenFOAM | CFD surrogates, IoT RUL, portfolio optimization, IR search |
+| **Total** | **32** | **15+ Frameworks** | **End-to-end production AI systems** |
+
+</div>
+
+---
+
+## 🗺️ Portfolio Domain Map
 
 ```
-  Generative AI & Agents (53%)   ████████████████████████░░░░░░░░░░░░░░░░░░░░░░
-  Deep Learning & CV     (34%)   ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  Data Science & MLOps   (13%)   █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                            OM GIRI  ·  AI & DATA SCIENCE ECOSYSTEM                               ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                                  ║
+║   ┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐       ║
+║   │  🤖 GENERATIVE AI        │   │   🧠 DEEP LEARNING       │   │   📊 DATA SCIENCE        │       ║
+║   │  & AGENTIC SYSTEMS       │   │   CV & PHYSICS AI        │   │   & MLOPS                │       ║
+║   ├─────────────────────────┤   ├─────────────────────────┤   ├─────────────────────────┤       ║
+║   │ MangoOS Agentic OS       │   │ PINN Navier-Stokes       │   │ CFD Surrogate Models     │       ║
+║   │ Self-Extending Agent     │   │ FEA DNN Surrogate        │   │ IoT Predictive Maint.    │       ║
+║   │ Financial Agent Crew     │   │ CARLA Self-Driving       │   │ Portfolio Optimization   │       ║
+║   │ Guardrail Moderation API │   │ Micrograd Autograd Engine│   │ TF-IDF Search Engine     │       ║
+║   │ Document & Video RAG     │   │ Deepfake Classifier      │   │                          │       ║
+║   │ LLaMA-3 QLoRA Fine-Tune  │   │ YOLOv8 Object Tracking   │   │                          │       ║
+║   │ Multi-Agent Research     │   │ DCGAN Generative Art     │   │                          │       ║
+║   │ LangGraph Workflows      │   │ RL Trading Agent (PPO)   │   │                          │       ║
+║   └─────────────────────────┘   └─────────────────────────┘   └─────────────────────────┘       ║
+║                                                                                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════╣
+║                               CORE INFRASTRUCTURE & FOUNDATIONS                                   ║
+║                                                                                                  ║
+║  PyTorch · TensorFlow · LangGraph · ChromaDB · FAISS · FastAPI · Docker · OpenCV · Streamlit    ║
+║  Google ADK · OpenAI GPT-4o · Gemini 2.5 · LLaMA-3 · QLoRA · PEFT · Whisper · OpenFOAM · CARLA ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 🏆 Flagship Projects
+## 🤖 Domain 1: Generative AI, LLMs & Agentic Systems (17 Projects)
 
-> The five projects below represent the most technically ambitious and production-complete systems in this portfolio.
+> *Stateful multi-agent orchestration systems, large language model fine-tuning pipelines, retrieval-augmented generation with semantic search, and self-extending skill architectures.*
+
+<br/>
+
+### 🏗️ Agentic AI Projects
+
+<details>
+<summary><b>📦 MangoOS — Self-Hosted Agentic AI Operating System</b></summary>
+
+**Tech Stack:** `LangGraph` `FastAPI` `Redis` `Docker`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | A production-grade, self-hosted **Agentic AI OS** that provides a complete execution environment for LLM-driven agents. |
+| **Architecture** | Goal Intake → LLM Planner → Task Queue (Redis) → Docker Sandbox Execution → Live Dashboard |
+| **Key Features** | Isolated container sandboxes, live agent state monitoring dashboard, persistent memory via Redis, RESTful API interface |
+| **Innovation** | First-principles agent OS design — runs shell commands, manages files, and spawns processes inside protected Docker environments |
+
+📁 [`Generative AI/Agentic_AI_Projects/MangoOS`](Generative%20AI/Agentic_AI_Projects/MangoOS)
+
+</details>
+
+<details>
+<summary><b>🔧 Self-Extending Agent — Runtime Skill Synthesis with Google ADK</b></summary>
+
+**Tech Stack:** `Google ADK` `Gemini 2.5 Pro` `Qwen` `Python AST`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | An agent that **writes, compiles, tests, and permanently registers its own new tools** at runtime — no human intervention required. |
+| **Architecture** | User Task → Skill Gap Detection → Code Synthesis (LLM) → AST Validation → File Registration → Re-invocation |
+| **Key Features** | Hierarchical skill library with versioning, automatic test generation, live hot-reload of new tools |
+| **Innovation** | Autonomous capability expansion loop — the agent grows smarter with every novel task it encounters |
+
+📁 [`Generative AI/Agentic_AI_Projects/Self_Extending_Agent`](Generative%20AI/Agentic_AI_Projects/Self_Extending_Agent)
+
+</details>
+
+<details>
+<summary><b>💹 Financial Analysis Agent Crew — Multi-Agent Market Intelligence</b></summary>
+
+**Tech Stack:** `Agno (Phidata)` `Gemini 2.0 Flash` `YFinance` `Streamlit`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | A coordinated **swarm of specialized financial analyst agents** that autonomously research, compute, and brief on equity positions. |
+| **Architecture** | Orchestrator → Scraper Agent (YFinance) → Ratio Calculator Agent → Analyst Writer Agent → Executive Report |
+| **Key Features** | Real-time stock data ingestion, P/E, DCF, EBITDA ratio computation, multi-agent parallelism, formatted report output |
+| **Innovation** | Financial reasoning delegation across purpose-built sub-agents — each expert in a specific analysis task |
+
+📁 [`Generative AI/Agentic_AI_Projects/Financial_Analysis_Agent_Crew`](Generative%20AI/Agentic_AI_Projects/Financial_Analysis_Agent_Crew)
+
+</details>
+
+<details>
+<summary><b>🔄 Self-Correcting Data Validation Agent</b></summary>
+
+**Tech Stack:** `LangChain` `Google Gemini` `Firestore` `Pydantic`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Autonomous pipeline that **detects schema drift, validates data integrity, and auto-corrects ingestion anomalies** before database writes. |
+| **Architecture** | Input Stream → Schema Validator → LLM Anomaly Detector → Correction Loop → Firestore Write + Audit Log |
+| **Key Features** | Real-time data health monitoring, self-healing pipelines, structured validation with Pydantic models |
+
+📁 [`Generative AI/Agentic_AI_Projects/Self_Correcting_Data_Validation_Agent`](Generative%20AI/Agentic_AI_Projects/Self_Correcting_Data_Validation_Agent)
+
+</details>
+
+<details>
+<summary><b>🧪 AI Test Case Generator — Automated QA Engineering</b></summary>
+
+**Tech Stack:** `LangChain` `OpenAI GPT-4o` `AST Parser`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | An LLM agent that **parses source code AST trees** and auto-generates comprehensive unit and integration test suites. |
+| **Architecture** | Source Code → AST Parsing → Function Signature Analysis → Test Template Generation → pytest Output |
+| **Key Features** | Handles edge cases, mocking patterns, multi-file codebases, and docstring-guided assertions |
+
+📁 [`Generative AI/Agentic_AI_Projects/AI_Test_Case_Generator`](Generative%20AI/Agentic_AI_Projects/AI_Test_Case_Generator)
+
+</details>
+
+<br/>
+
+### 🧬 LLM Fine-Tuning & Safety Projects
+
+<details>
+<summary><b>🦙 Fine-Tuned Domain Chatbot — LLaMA-3 with QLoRA & ORPO Alignment</b></summary>
+
+**Tech Stack:** `LLaMA-3` `QLoRA` `PEFT` `TRL` `BitsAndBytes` `Hugging Face`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | End-to-end **4-bit quantized instruction fine-tuning** of LLaMA-3 on a custom domain dataset with ORPO preference alignment. |
+| **Pipeline Stages** | Base Model Load (4-bit NF4) → LoRA Adapter Attachment → SFT Training → ORPO Preference Alignment → Adapter Merge → Inference |
+| **Key Techniques** | QLoRA (r=16, alpha=32), gradient checkpointing, flash attention, cosine LR scheduler, ORPO loss optimization |
+| **Key Result** | Significantly reduced hallucination and improved factual precision in the target domain |
+
+📁 [`Generative AI/LLM_Projects/Fine_Tuned_Domain_Chatbot`](Generative%20AI/LLM_Projects/Fine_Tuned_Domain_Chatbot)
+
+</details>
+
+<details>
+<summary><b>🛡️ Guardrail Moderation API — Production LLM Safety Gateway</b></summary>
+
+**Tech Stack:** `FastAPI` `Transformers` `Regex` `Uvicorn`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | High-throughput **API gateway middleware** intercepting all LLM inputs and outputs before serving, scanning for safety violations. |
+| **Detection Layers** | PII Entity Extraction → Prompt Injection Pattern Matching → Toxicity Classification → Jailbreak Heuristics |
+| **Key Features** | < 50ms added latency, async request handling, configurable rule engine, detailed audit logging |
+
+📁 [`Generative AI/LLM_Projects/Guardrail_Moderation_API`](Generative%20AI/LLM_Projects/Guardrail_Moderation_API)
+
+</details>
+
+<details>
+<summary><b>🎬 Real-Time Video Summarizer — Text-to-Video Synthesis Pipeline</b></summary>
+
+**Tech Stack:** `Diffusers` `PyTorch` `ModelScope` `Transformers`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | A **text-to-video synthesis pipeline** generating high-quality dynamic video sequences from natural language descriptions. |
+| **Architecture** | Prompt → Text Encoder → Temporal UNet Diffusion → Frame Decoder → MP4 Output |
+
+📁 [`Generative AI/LLM_Projects/Real_Time_Video_Summarizer`](Generative%20AI/LLM_Projects/Real_Time_Video_Summarizer)
+
+</details>
+
+<br/>
+
+### 🔍 RAG, Retrieval & Search Projects
+
+<details>
+<summary><b>🌐 Advanced Multi-Source RAG — Hybrid Vector + Live Web Retrieval</b></summary>
+
+**Tech Stack:** `LangChain` `ChromaDB` `Tavily API` `OpenAI Embeddings`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | A **hybrid Retrieval-Augmented Generation** system dynamically routing queries between persistent vector stores and live internet search. |
+| **Retrieval Strategy** | Semantic cosine similarity on local ChromaDB + Tavily live web search → Re-ranking → MMR deduplication → Synthesis |
+| **Key Features** | Source attribution, query rewriting, multi-hop reasoning across heterogeneous sources |
+
+📁 [`Generative AI/RAG_Projects/Advanced_Multi_Source_RAG`](Generative%20AI/RAG_Projects/Advanced_Multi_Source_RAG)
+
+</details>
+
+<details>
+<summary><b>💬 Chat With Codebase — Multi-Agent Software Development Assistant</b></summary>
+
+**Tech Stack:** `OpenAI Swarm` `GPT-4o` `ChromaDB` `Tree-Sitter`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Multi-agent AI software engineer performing **codebase-aware architectural planning, code generation, and adversarial code review**. |
+| **Agents** | Architect Agent → Code Writer Agent → Code Reviewer Agent → Test Generator Agent |
+
+📁 [`Generative AI/RAG_Projects/Chat_With_Codebase`](Generative%20AI/RAG_Projects/Chat_With_Codebase)
+
+</details>
+
+<details>
+<summary><b>🩺 Multimodal Product Assistant — Vision + Language Diagnostic AI</b></summary>
+
+**Tech Stack:** `MedGemma` `PyTorch` `Streamlit` `PIL`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | **Multimodal diagnostic assistant** combining visual image understanding (X-rays, product images) with text-based clinical query processing. |
+| **Architecture** | Image (PIL) + Text Query → MedGemma Vision Encoder → Cross-Modal Attention → Response Generation |
+
+📁 [`Generative AI/RAG_Projects/Multimodal_Product_Assistant`](Generative%20AI/RAG_Projects/Multimodal_Product_Assistant)
+
+</details>
+
+<br/>
+
+### 📚 Foundation & Structured Learning Projects
+
+| # | Project | Stack | Description |
+|:---:|:---|:---|:---|
+| 12 | **[01 — Generative AI Basics](Generative%20AI/01_Generative_AI_Basics)** | LangChain, OpenAI, Streamlit | Core LLM prompt templates, LCEL chain compositions, and the **CineSage** movie recommendation engine. |
+| 13 | **[02 — Document RAG + ChromaDB](Generative%20AI/02_Document_RAG_ChromaDB)** | ChromaDB, Mistral, OpenAI Embeddings | PDF ingestion with 1000-char chunking and **Maximal Marginal Relevance (MMR)** diversity retrieval. |
+| 14 | **[03 — Custom Tool-Calling Agents](Generative%20AI/03_Custom_Tool_Calling_Agents)** | LangChain, Python REPL | Dynamic function binding enabling agents to execute code, call APIs, and run custom calculations. |
+| 15 | **[04 — Multi-Agent Research System](Generative%20AI/04_Multi_Agent_Research_System)** | LangChain, Tavily, Streamlit | 4-agent research swarm: **Searcher → Reader → Writer → Critic** with adversarial quality scoring. |
+| 16 | **[05 — AI Video Assistant RAG](Generative%20AI/05_AI_Video_Assistant_RAG)** | Whisper ASR, FAISS, Streamlit | Whisper video transcription with FAISS-powered semantic search over transcript passages. |
+| 17 | **[06 — LangGraph Agentic Workflows](Generative%20AI/06_LangGraph_Agentic_Workflows)** | LangGraph, MemorySaver | Cyclic stateful agent graphs with checkpoint persistence and **human-in-the-loop** validation gates. |
 
 ---
 
-### 🥇 Flagship 1 — MangoOS: Self-Hosted Agentic AI Operating System
+## 🧠 Domain 2: Deep Learning, Computer Vision & Physics AI (11 Projects)
 
-[![MangoOS](https://img.shields.io/badge/Category-Agentic%20AI%20OS-6366F1?style=flat-square)](https://github.com/Omgiri01)
-[![Stack](https://img.shields.io/badge/Stack-LangGraph%20%7C%20FastAPI%20%7C%20Redis%20%7C%20Docker-181717?style=flat-square)](https://github.com/Omgiri01)
+> *Physics-Informed Neural Networks solving PDEs, FEA/CFD deep learning surrogates, CARLA autonomous driving stacks, EfficientNet deepfake classifiers, and from-scratch autograd engines.*
 
-**MangoOS** is a production-grade **self-hosted Agentic AI Operating System** that allows LLM-powered agents to autonomously plan, schedule, and execute commands inside isolated Docker containers — providing a fully sandboxed, secure AI compute kernel.
+<br/>
 
-**How It Works:**
-```
-User Goal Input
-      │
-      ▼
-┌─────────────────────────────┐
-│  LangGraph Task Planner     │  ← LLM decomposes goal into sub-tasks
-└────────────┬────────────────┘
-             │
-      ┌──────▼──────┐
-      │ Task Queue  │  ← Redis-backed priority queue
-      └──────┬──────┘
-             │
-   ┌─────────▼──────────┐
-   │  Docker Executor   │  ← Isolated containerised execution kernel
-   └─────────┬──────────┘
-             │
-   ┌─────────▼──────────┐
-   │  Real-Time Monitor │  ← FastAPI WebSocket + Live dashboard
-   └────────────────────┘
-```
+### ⚙️ Physics-Informed AI & Scientific ML
 
-| Component | Technology | Role |
-| :--- | :--- | :--- |
-| Orchestration | LangGraph (StatefulGraph) | Cyclic agent execution with checkpointing |
-| API Gateway | FastAPI + Uvicorn | RESTful and WebSocket command interfaces |
-| State Store | Redis (Pub/Sub) | Task queue, agent memory, event streaming |
-| Execution Kernel | Docker SDK (Python) | Sandboxed, isolated process execution |
-| Monitoring | Streamlit Dashboard | Real-time task progress and agent observability |
+<details>
+<summary><b>🌊 PINN Laminar Flow — Navier-Stokes Physics-Informed Neural Network</b></summary>
 
----
+**Tech Stack:** `PyTorch` `torch.autograd` `Matplotlib` `SciPy`
 
-### 🥈 Flagship 2 — Physics-Informed Neural Network (PINN) for Navier-Stokes
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | A **Physics-Informed Neural Network (PINN)** solving 2D incompressible Navier-Stokes equations from sparse boundary measurements — no mesh required. |
+| **Governing Equations** | Continuity: `∂u/∂x + ∂v/∂y = 0` · Momentum: `ρ(u·∇)u = −∇p + μ∇²u` |
+| **Loss Function** | `L_total = L_data + λ₁·L_continuity + λ₂·L_momentum` (physics residuals penalized jointly) |
+| **Key Innovation** | Neural network learns the velocity `(u, v)` and pressure `p` field from 200 boundary collocation points only |
+| **Training Strategy** | Adam (1e-3) → L-BFGS fine-tuning on physics residuals; automatic differentiation for PDE derivatives |
 
-[![PINN](https://img.shields.io/badge/Category-Physics%20AI%20%7C%20CFD-3B82F6?style=flat-square)](https://github.com/Omgiri01)
-[![Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20Automatic%20Diff-EE4C2C?style=flat-square)](https://github.com/Omgiri01)
+📁 [`AI, ML, & DL/PINN_Laminar_Flow`](<AI,%20ML,%20&%20DL/PINN_Laminar_Flow>)
 
-A custom PyTorch neural network that learns to satisfy **2D incompressible Navier-Stokes fluid dynamics equations** as hard constraints — replacing traditional mesh-based CFD solvers.
+</details>
 
-**Governing Equations embedded as PDE loss terms:**
+<details>
+<summary><b>🏗️ FEA Surrogate Modeling — Deep Neural Network for Structural Analysis</b></summary>
 
-```
-Continuity:      ∂u/∂x + ∂v/∂y = 0
-Momentum (x):    ρ(u·∂u/∂x + v·∂u/∂y) = -∂p/∂x + μ·∇²u
-Momentum (y):    ρ(u·∂v/∂x + v·∂v/∂y) = -∂p/∂y + μ·∇²v
+**Tech Stack:** `PyTorch` `SciPy FEM Solvers` `NumPy` `Matplotlib`
 
-Total Loss:      L = L_data + λ₁·L_continuity + λ₂·L_momentum
-```
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | **Deep neural network surrogate** replacing expensive Finite Element Analysis (FEA) simulations, delivering 1,000× speedup with <2.5% error. |
+| **Architecture** | Input (geometry + loads) → ResNet Encoder → Skip Connections → Displacement/Stress Field Decoder |
+| **Key Metric** | L2 relative error < 2.5% across node displacement fields, von Mises stress, and reaction forces |
+| **Training Data** | 10,000 FEA simulation results across parametric geometry variations and load configurations |
 
-**Key Engineering Details:**
-- Collocation point sampling on interior domain and boundary
-- Adam → L-BFGS two-phase optimizer schedule for convergence
-- Predicts continuous velocity `(u, v)` and pressure `p` fields from sparse boundary observations
-- Zero mesh discretization — infers entire continuous field from collocation residuals
+📁 [`AI, ML, & DL/FEA_Surrogate_Modeling`](<AI,%20ML,%20&%20DL/FEA_Surrogate_Modeling>)
 
----
+</details>
 
-### 🥉 Flagship 3 — FEA Deep Neural Network Surrogate Model
+<br/>
 
-[![FEA](https://img.shields.io/badge/Category-Scientific%20ML%20%7C%20Surrogates-F59E0B?style=flat-square)](https://github.com/Omgiri01)
-[![Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20SciPy%20%7C%20OpenFOAM-EE4C2C?style=flat-square)](https://github.com/Omgiri01)
+### 🚗 Autonomous Systems & Computer Vision
 
-A deep neural network trained to **replace Finite Element Analysis (FEA) solvers** — achieving near-exact structural response predictions 1,000× faster than traditional simulation.
+<details>
+<summary><b>🚘 Autonomous Vehicle Simulation — Full Self-Driving Stack in CARLA</b></summary>
 
-| Metric | FEA Solver | DNN Surrogate |
-| :--- | :---: | :---: |
-| Solve Time (per sample) | ~2 hours | ~7 ms |
-| Relative L2 Error | — | < 2.5% |
-| GPU Parallelism | ✗ | ✓ |
-| Real-Time Inference | ✗ | ✓ |
-| Speedup Factor | 1× | **>1,000×** |
+**Tech Stack:** `CARLA Simulator` `OpenCV` `PyTorch` `Python Control Library`
 
----
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | End-to-end **autonomous vehicle control pipeline** inside the CARLA simulation environment — perception, planning, and control in one system. |
+| **Pipeline Stages** | RGB Camera Input → Semantic Segmentation (FCN) → Lane Detection → Path Planning → PID/MPC Steering Controller |
+| **Sensors Used** | RGB cameras, depth cameras, LiDAR point clouds, IMU, GPS |
+| **Control Systems** | Proportional-Integral-Derivative (PID) for lane keeping + Model Predictive Control (MPC) for trajectory following |
+| **Key Features** | Multi-weather, multi-scenario simulation, real-time fps metrics, obstacle avoidance |
 
-### 🏅 Flagship 4 — Self-Extending Agent (Google ADK + Gemini 2.5)
+📁 [`AI, ML, & DL/Autonomous_Vehicle_Simulation`](<AI,%20ML,%20&%20DL/Autonomous_Vehicle_Simulation>)
 
-[![Self-Extend](https://img.shields.io/badge/Category-Self--Modifying%20Agentic%20AI-EC4899?style=flat-square)](https://github.com/Omgiri01)
-[![Stack](https://img.shields.io/badge/Stack-Google%20ADK%20%7C%20Gemini%202.5%20%7C%20Qwen-4285F4?style=flat-square)](https://github.com/Omgiri01)
+</details>
 
-An agent that **writes, tests, and permanently registers its own new Python tools at runtime**, expanding its own capability surface area through live code generation without any human intervention.
+<details>
+<summary><b>🕵️ Deepfake Detection — EfficientNet Facial Forgery Classifier</b></summary>
 
-```
-User Request → Agent detects missing capability
-                    │
-                    ▼
-          LLM generates new Python tool code
-                    │
-                    ▼
-          Sandboxed execution & unit test pass
-                    │
-                    ▼
-          Tool registered into agent skill registry
-                    │
-                    ▼
-          Future requests invoke new skill ✓
-```
+**Tech Stack:** `TensorFlow` `Keras` `EfficientNet-B4` `MTCNN`
 
----
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Binary deep learning classifier identifying **AI-generated facial forgeries** in video frames with high precision. |
+| **Pipeline** | Video → Frame Extraction → MTCNN Face Cropping → EfficientNet-B4 Feature Extraction → Sigmoid Classification |
+| **Training Data** | FaceForensics++ dataset: Deepfakes, Face2Face, FaceSwap, NeuralTextures |
+| **Key Metric** | High AUC-ROC with robust performance across compression artifacts (c23, c40) |
 
-### 🏅 Flagship 5 — CFD Surrogate with ConvLSTM (OpenFOAM + Deep Learning)
+📁 [`AI, ML, & DL/Deepfake_Detection`](<AI,%20ML,%20&%20DL/Deepfake_Detection>)
 
-[![CFD](https://img.shields.io/badge/Category-Scientific%20ML%20%7C%20Fluid%20Dynamics-14B8A6?style=flat-square)](https://github.com/Omgiri01)
-[![Stack](https://img.shields.io/badge/Stack-PyTorch%20%7C%20OpenFOAM%20%7C%20Keras%20ConvLSTM-EE4C2C?style=flat-square)](https://github.com/Omgiri01)
+</details>
 
-A **Convolutional LSTM deep learning model** trained on OpenFOAM supersonic flow simulation data to predict real-time velocity field `U`, pressure `P`, and temperature `T` distributions — replacing hour-long numerical simulations with sub-second inference.
+<details>
+<summary><b>⚡ YOLO Object Detection — Real-Time 60+ FPS Multi-Object Tracking</b></summary>
+
+**Tech Stack:** `Ultralytics YOLOv8` `OpenCV` `PyTorch`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Real-time **multi-class object detection and tracking** pipeline achieving 60+ FPS on GPU hardware. |
+| **Architecture** | CSP Backbone → PANet Feature Pyramid → Decoupled Head → NMS Post-Processing |
+| **Capabilities** | 80-class COCO detection, webcam live inference, video file annotation, custom dataset fine-tuning |
+
+📁 [`AI, ML, & DL/YOLO_Object_Detection`](<AI,%20ML,%20&%20DL/YOLO_Object_Detection>)
+
+</details>
+
+<br/>
+
+### 🔬 Foundational AI Projects
+
+| # | Project | Stack | Description |
+|:---:|:---|:---|:---|
+| 22 | **[Generative Art GANs](AI%2C%20ML%2C%20%26%20DL/Generative_Art_GANs)** | PyTorch, Torchvision | DCGAN adversarial training: Generator `G` + Discriminator `D` min-max game on MNIST & CelebA. |
+| 23 | **[Speech to Text Transcription](AI%2C%20ML%2C%20%26%20DL/Speech_to_Text_Transcription)** | Vosk, PocketSphinx, Whisper | Multi-engine ASR library — offline Vosk, PocketSphinx, and Whisper with WER benchmarking. |
+| 24 | **[Deep Learning Framework Scratch](AI%2C%20ML%2C%20%26%20DL/Deep_Learning_Framework_Scratch)** | Pure Python, NumPy | Scalar autograd engine: DAG graph construction, topological sort backpropagation, custom optimizers. |
+| 25 | **[Reinforcement Learning Trading](AI%2C%20ML%2C%20%26%20DL/Reinforcement_Learning_Trading)** | Gymnasium, Stable-Baselines3 | PPO/DQN agents trained in a custom stock market `gym.Env` with reward shaping. |
+| 27 | **[Masked Language Model NLP](AI%2C%20ML%2C%20%26%20DL/Masked_Language_Model_NLP)** | Transformers, PyTorch, HF Datasets | BERT masked token prediction fine-tuned on domain corpora with dynamic masking strategy. |
+| 28 | **[Vector DB From Scratch](AI%2C%20ML%2C%20%26%20DL/Vector_DB_From_Scratch)** | Pure Python, NumPy | In-memory vector store: cosine similarity search, metadata filtering, brute-force k-NN retrieval. |
 
 ---
 
-## 🤖 Generative AI, LLMs & Stateful Agentic Systems
+## 📊 Domain 3: Data Science, Predictive Engineering & MLOps (4 Projects)
 
-> 17 projects across agentic orchestration, RAG, LLM fine-tuning, and intelligent workflow automation.
+> *Computational fluid dynamics surrogate modeling, IoT turbofan engine health analytics, statistical portfolio optimization, and custom information retrieval engines — all built with mathematical rigor.*
 
-### 🔷 Agentic AI Projects
+<br/>
 
-| # | Project | Stack | What It Does |
-| :-: | :--- | :--- | :--- |
-| 1 | **[MangoOS](Generative%20AI/Agentic_AI_Projects/MangoOS)** | LangGraph · FastAPI · Redis · Docker | Self-hosted Agentic OS executing shell commands inside isolated Docker sandboxes with real-time task monitoring. |
-| 2 | **[Self-Extending Agent](Generative%20AI/Agentic_AI_Projects/Self_Extending_Agent)** | Google ADK · Gemini 2.5 · Qwen | Agent that generates, validates, and registers its own Python tools and skills at runtime — perpetually expanding its capability. |
-| 3 | **[Financial Analysis Agent Crew](Generative%20AI/Agentic_AI_Projects/Financial_Analysis_Agent_Crew)** | Agno (Phidata) · Gemini 2.0 · YFinance | Multi-agent financial intelligence swarm scraping live market data, computing financial ratios, and generating executive stock briefs. |
-| 4 | **[Self-Correcting Data Validation Agent](Generative%20AI/Agentic_AI_Projects/Self_Correcting_Data_Validation_Agent)** | LangChain · Gemini · Firestore | Autonomous data quality pipeline detecting schema drift and self-correcting ingestion anomalies in streaming data. |
-| 5 | **[AI Test Case Generator](Generative%20AI/Agentic_AI_Projects/AI_Test_Case_Generator)** | LangChain · OpenAI GPT-4o | Automated QA engineering agent parsing codebase structures and generating comprehensive unit/integration test suites. |
+<details>
+<summary><b>🌀 CFD Surrogate Modeling — Convolutional LSTM Fluid Dynamics Predictor</b></summary>
 
-### 🔷 LLM Engineering Projects
+**Tech Stack:** `PyTorch` `OpenFOAM` `Keras` `ConvLSTM2D`
 
-| # | Project | Stack | What It Does |
-| :-: | :--- | :--- | :--- |
-| 6 | **[Fine-Tuned Domain Chatbot](Generative%20AI/LLM_Projects/Fine_Tuned_Domain_Chatbot)** | LLaMA-3 · QLoRA · PEFT · TRL · BitsAndBytes | End-to-end pipeline for 4-bit quantized instruction tuning, LoRA adapter merging, and ORPO preference alignment of domain-specific LLMs. |
-| 7 | **[Guardrail Moderation API](Generative%20AI/LLM_Projects/Guardrail_Moderation_API)** | FastAPI · Regex · Transformers | High-throughput API interceptor gateway scanning for PII leakage, prompt injection attacks, and LLM output toxicity at the edge. |
-| 8 | **[Real-Time Video Summarizer](Generative%20AI/LLM_Projects/Real_Time_Video_Summarizer)** | Diffusers · PyTorch · ModelScope | Text-to-video synthesis pipeline generating dynamic, coherent video sequences from structured text descriptions. |
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Deep learning surrogate predicting full **CFD field variables** (velocity `U`, pressure `P`, temperature `T`) from parametric input conditions — replacing hours of OpenFOAM simulation with millisecond inference. |
+| **Architecture** | Geometry Parameters → Encoder → ConvLSTM2D Temporal Stack → Field Decoder → U/P/T Heatmaps |
+| **Training Data** | 1,200 OpenFOAM simulations across Mach number, angle-of-attack, and Reynolds number sweeps |
+| **Key Metric** | < 3% L2 relative error on held-out supersonic shockwave configurations |
 
-### 🔷 RAG & Knowledge Retrieval Projects
+📁 [`Data Science/CFD_Surrogate_Modeling`](Data%20Science/CFD_Surrogate_Modeling)
 
-| # | Project | Stack | What It Does |
-| :-: | :--- | :--- | :--- |
-| 9 | **[Advanced Multi-Source RAG](Generative%20AI/RAG_Projects/Advanced_Multi_Source_RAG)** | LangChain · Tavily · ChromaDB | Hybrid RAG system routing queries dynamically between local vector document stores and live Tavily web search APIs. |
-| 10 | **[Chat With Codebase](Generative%20AI/RAG_Projects/Chat_With_Codebase)** | OpenAI Swarm · GPT-4o | Multi-agent software engineering assistant performing code planning, generation, and adversarial review over full codebases. |
-| 11 | **[Multimodal Product Assistant](Generative%20AI/RAG_Projects/Multimodal_Product_Assistant)** | MedGemma · PyTorch · Streamlit | Clinical diagnostic assistant processing visual medical image inputs (X-rays/CT scans) alongside structured text parameters. |
+</details>
 
-### 🔷 LangChain & LangGraph Curriculum Projects
+<details>
+<summary><b>⚙️ Predictive Maintenance IoT — Turbofan Engine Remaining Useful Life (RUL)</b></summary>
 
-| # | Project | Stack | What It Does |
-| :-: | :--- | :--- | :--- |
-| 12 | **[01 — Generative AI Basics](Generative%20AI/01_Generative_AI_Basics)** | LangChain · OpenAI · Streamlit | Core LLM prompting patterns, chain compositions, and **CineSage** — an LLM-powered movie recommendation engine. |
-| 13 | **[02 — Document RAG with ChromaDB](Generative%20AI/02_Document_RAG_ChromaDB)** | ChromaDB · OpenAI · Mistral | PDF ingestion pipeline with 1000-char chunking strategy and Maximal Marginal Relevance (MMR) for diversity-aware retrieval. |
-| 14 | **[03 — Custom Tool-Calling Agents](Generative%20AI/03_Custom_Tool_Calling_Agents)** | LangChain · Python REPL | Dynamic function binding enabling agents to autonomously execute Python code, local calculations, and web lookups. |
-| 15 | **[04 — Multi-Agent Research System](Generative%20AI/04_Multi_Agent_Research_System)** | LangChain · Tavily · Streamlit | 4-agent autonomous research swarm architecture: `Searcher → Reader → Writer → Critic` with adversarial quality scoring. |
-| 16 | **[05 — AI Video Assistant RAG](Generative%20AI/05_AI_Video_Assistant_RAG)** | Whisper ASR · FAISS · Streamlit | Meeting recording transcription pipeline with FAISS-backed semantic similarity search over timestamped transcript segments. |
-| 17 | **[06 — LangGraph Agentic Workflows](Generative%20AI/06_LangGraph_Agentic_Workflows)** | LangGraph · MemorySaver | Cyclic stateful agent execution graphs with state reducers, checkpoint memory persistence, and human-in-the-loop approval nodes. |
+**Tech Stack:** `Scikit-Learn` `Pandas` `NumPy` `Matplotlib`
 
----
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | **Remaining Useful Life (RUL) estimation** for NASA C-MAPSS turbofan engine sensor datasets — enabling proactive maintenance scheduling. |
+| **Dataset** | NASA C-MAPSS: 21 sensor readings, 4 operating conditions, FD001–FD004 engine fault modes |
+| **Models Applied** | Random Forest, Gradient Boosting (XGBoost), LSTM temporal modeling, feature engineering from raw sensor signals |
+| **Key Features** | Rolling window feature engineering, degradation pattern extraction, maintenance alert threshold calibration |
 
-## 🧠 Deep Learning, Computer Vision & Physics AI
+📁 [`Data Science/Predictive_Maintenance_IoT`](Data%20Science/Predictive_Maintenance_IoT)
 
-> 11 projects spanning neural architecture engineering, physics-constrained learning, and real-time vision systems.
+</details>
 
-| # | Project | Stack | Impact & Highlights |
-| :-: | :--- | :--- | :--- |
-| 18 | **[FEA Surrogate Modeling](AI%2C%20ML%2C%20%26%20DL/FEA_Surrogate_Modeling)** | PyTorch · SciPy · Matplotlib | DNN surrogate replacing Finite Element solvers. **>1,000× speedup** with <2.5% L2 error across structural fields. |
-| 19 | **[PINN Laminar Flow](AI%2C%20ML%2C%20%26%20DL/PINN_Laminar_Flow)** | PyTorch · Autograd | Physics-Informed NN solving 2D incompressible Navier-Stokes past a cylinder with embedded PDE momentum residuals. |
-| 20 | **[Autonomous Vehicle Simulation](AI%2C%20ML%2C%20%26%20DL/Autonomous_Vehicle_Simulation)** | CARLA · OpenCV · PyTorch | Full self-driving stack: semantic segmentation lane detection, PID/MPC steering control, and camera sensor calibration. |
-| 21 | **[Deepfake Detection](AI%2C%20ML%2C%20%26%20DL/Deepfake_Detection)** | TensorFlow · Keras · MTCNN · EfficientNet | Binary classifier detecting GAN-generated facial forgeries with frame-level face alignment and attention-guided training. |
-| 22 | **[Generative Art GANs](AI%2C%20ML%2C%20%26%20DL/Generative_Art_GANs)** | PyTorch · Torchvision | DCGAN with Wasserstein loss performing mini-max adversarial training on MNIST digits and CelebA portrait datasets. |
-| 23 | **[Speech to Text Transcription](AI%2C%20ML%2C%20%26%20DL/Speech_to_Text_Transcription)** | Vosk · PocketSphinx · Whisper | Unified multi-engine speech recognition SDK supporting zero-latency offline (Vosk/CMU) and cloud (Whisper) transcription. |
-| 24 | **[Deep Learning Framework from Scratch](AI%2C%20ML%2C%20%26%20DL/Deep_Learning_Framework_Scratch)** | Pure Python · NumPy | Custom scalar autograd engine building DAG computational graphs, topological-sort reverse-mode backpropagation, and MLP API. |
-| 25 | **[Reinforcement Learning Trading](AI%2C%20ML%2C%20%26%20DL/Reinforcement_Learning_Trading)** | Gymnasium · Stable-Baselines3 | PPO and DQN RL agents trained inside custom Gymnasium market environments to execute autonomous stock trading strategies. |
-| 26 | **[YOLO Object Detection](AI%2C%20ML%2C%20%26%20DL/YOLO_Object_Detection)** | Ultralytics YOLOv8 · OpenCV | Real-time **60+ FPS** multi-object detection and tracking with bounding box localization and confidence-threshold NMS filtering. |
-| 27 | **[Masked Language Model NLP](AI%2C%20ML%2C%20%26%20DL/Masked_Language_Model_NLP)** | HuggingFace Transformers · PyTorch | Bidirectional BERT masked token prediction fine-tuning pipeline adapted to custom scientific and legal text corpora. |
-| 28 | **[Vector DB from Scratch](AI%2C%20ML%2C%20%26%20DL/Vector_DB_From_Scratch)** | Pure Python · NumPy | Custom vector database engine with high-dimensional CRUD operations, cosine/dot-product similarity scoring, and metadata filtering. |
+<details>
+<summary><b>📈 Financial Analysis Python — Markowitz Portfolio Optimization & Risk Analytics</b></summary>
 
----
+**Tech Stack:** `Pandas` `NumPy` `Matplotlib` `SciPy Optimize`
 
-## 📊 Data Science, Predictive Analytics & MLOps
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Mathematical **Modern Portfolio Theory (MPT)** implementation — computing optimal asset allocations across risk-return frontiers. |
+| **Core Mathematics** | Min `wᵀΣw` s.t. `wᵀμ = μ_target` and `wᵀ1 = 1` (Markowitz Mean-Variance optimization) |
+| **Outputs** | Efficient Frontier curve, Sharpe Ratio maximization, Capital Market Line (CML), correlation heatmaps |
 
-> 4 high-rigor engineering projects applying statistical and deep learning methods to real-world industrial problems.
+📁 [`Data Science/financial_analysis_python`](Data%20Science/financial_analysis_python)
 
-| # | Project | Stack | Impact & Highlights |
-| :-: | :--- | :--- | :--- |
-| 29 | **[CFD Surrogate Modeling](Data%20Science/CFD_Surrogate_Modeling)** | PyTorch · OpenFOAM · Keras · ConvLSTM | ConvLSTM model predicting OpenFOAM supersonic shockwave fields — velocity `U`, pressure `P`, temperature `T` — in real-time. |
-| 30 | **[Predictive Maintenance IoT](Data%20Science/Predictive_Maintenance_IoT)** | Scikit-Learn · Pandas · NumPy | C-MAPSS turbofan engine RUL (Remaining Useful Life) prediction pipeline with sensor feature engineering and degradation modeling. |
-| 31 | **[Financial Analysis Python](Data%20Science/financial_analysis_python)** | Pandas · NumPy · Matplotlib · SciPy | Markowitz Mean-Variance frontier optimization, Sharpe ratio tracking, Monte Carlo portfolio simulations, and downside risk analytics. |
-| 32 | **[Search Engine from Scratch](Data%20Science/Search_Engine_From_Scratch)** | Pure Python · Math · Regex | Full IR engine: tokenization, stemming, inverted index construction, logarithmic TF-IDF weighting, and cosine vector space ranking. |
+</details>
+
+<details>
+<summary><b>🔎 Search Engine From Scratch — Custom Inverted-Index TF-IDF Information Retrieval</b></summary>
+
+**Tech Stack:** `Pure Python` `Math` `Regex` `Collections`
+
+| Attribute | Detail |
+|:---|:---|
+| **Core Concept** | Full **Information Retrieval search engine** implemented from scratch — no external search library dependencies. |
+| **Algorithm** | Tokenization → Stop-Word Removal → Stemming → Inverted Index Build → TF-IDF Weighting → Cosine Similarity Ranking |
+| **TF-IDF Formula** | `TF(t,d) = f_{t,d} / Σf_{t',d}` · `IDF(t,D) = log(|D| / (1 + |{d : t∈d}|))` |
+| **Similarity Score** | `Score(q,d) = (q⃗ · d⃗) / (‖q⃗‖ · ‖d⃗‖)` (cosine distance in TF-IDF vector space) |
+
+📁 [`Data Science/Search_Engine_From_Scratch`](Data%20Science/Search_Engine_From_Scratch)
+
+</details>
 
 ---
 
-## ⚙️ Complete Technology Matrix
+## 🌟 Flagship Project Deep Dives
 
-<table>
-<tr>
-<th>Domain</th>
-<th>Technologies & Tools</th>
-</tr>
-<tr>
-<td><strong>🤖 Agentic Frameworks</strong></td>
-<td>
-
-`LangGraph` `LangChain` `Google Agent Dev Kit (ADK)` `Agno (Phidata)` `OpenAI Swarm`
-
-</td>
-</tr>
-<tr>
-<td><strong>🧠 LLMs & Fine-Tuning</strong></td>
-<td>
-
-`OpenAI GPT-4o` `Google Gemini 2.5` `LLaMA-3` `Mistral AI` `Qwen` `QLoRA` `PEFT` `TRL` `BitsAndBytes`
-
-</td>
-</tr>
-<tr>
-<td><strong>📦 Vector Databases & RAG</strong></td>
-<td>
-
-`ChromaDB` `FAISS` `Tavily Search API` `Custom NumPy Vector DB`
-
-</td>
-</tr>
-<tr>
-<td><strong>🔥 Deep Learning & Neural Networks</strong></td>
-<td>
-
-`PyTorch` `PyTorch Geometric` `TensorFlow 2.x` `Keras` `Ultralytics YOLOv8` `HuggingFace Transformers`
-
-</td>
-</tr>
-<tr>
-<td><strong>⚛️ Physics & Engineering AI</strong></td>
-<td>
-
-`Physics-Informed Neural Networks (PINNs)` `OpenFOAM CFD` `CARLA Autonomous Driving Simulator` `SciPy FEA`
-
-</td>
-</tr>
-<tr>
-<td><strong>📊 Data Science & Classical ML</strong></td>
-<td>
-
-`Pandas` `NumPy` `Scikit-Learn` `SciPy` `XGBoost` `LightGBM` `Matplotlib` `Seaborn` `Plotly`
-
-</td>
-</tr>
-<tr>
-<td><strong>🎙️ Audio, Vision & Multimodal</strong></td>
-<td>
-
-`Whisper ASR` `Vosk` `CMU PocketSphinx` `OpenCV` `MTCNN` `Diffusers` `ModelScope`
-
-</td>
-</tr>
-<tr>
-<td><strong>🚀 Deployment & Infrastructure</strong></td>
-<td>
-
-`Docker` `FastAPI` `Streamlit` `Uvicorn` `Redis` `Google Firestore` `Jupyter Notebooks`
-
-</td>
-</tr>
-<tr>
-<td><strong>🔧 Developer Tooling</strong></td>
-<td>
-
-`Git` `GitHub` `Python 3.10+` `Conda` `pip` `pytest` `black` `ruff`
-
-</td>
-</tr>
-</table>
-
----
-
-## 🔬 Mathematical & Theoretical Foundations
-
-This portfolio emphasizes understanding algorithms at a first-principles level. Key mathematical frameworks implemented from scratch:
-
-### 1. Physics-Informed Neural Networks — Navier-Stokes Fluid Flow
-
-Continuity and momentum conservation laws embedded as neural network loss terms:
+### 🥇 Flagship 1 — MangoOS: Agentic AI Operating System
 
 ```
-Continuity:      ∂u/∂x  +  ∂v/∂y  =  0
+User Instruction
+       │
+       ▼
+ ┌─────────────────────────────────────────────────────────────────┐
+ │                    MANGOOS ORCHESTRATION CORE                    │
+ │                                                                  │
+ │   Goal Decomposer (Gemini) → Task Queue (Redis) → Planner        │
+ │             │                                                    │
+ │    ┌────────┴─────────────────────────────────┐                  │
+ │    │          EXECUTION LAYER                  │                  │
+ │    │  Docker Container A  │ Docker Container B │                  │
+ │    │  [Shell Commands]    │ [Python Scripts]   │                  │
+ │    │  [File Operations]   │ [API Calls]        │                  │
+ │    └──────────────────────┴────────────────────┘                  │
+ │             │                                                    │
+ │    Result Aggregator → State Persister (Redis) → Output          │
+ └─────────────────────────────────────────────────────────────────┘
+       │
+       ▼
+ Live Monitoring Dashboard (FastAPI + WebSocket)
+```
 
-Momentum (x):    ρ(u·∂u/∂x + v·∂u/∂y)  =  -∂p/∂x  +  μ·(∂²u/∂x² + ∂²u/∂y²)
+### 🥈 Flagship 2 — PINN: Physics-Constrained Neural Fluid Solver
 
-Momentum (y):    ρ(u·∂v/∂x + v·∂v/∂y)  =  -∂p/∂y  +  μ·(∂²v/∂x² + ∂²v/∂y²)
+The network learns to satisfy fluid physics alongside data observations simultaneously:
 
-Total Loss:      L_total = L_data  +  λ₁·L_continuity  +  λ₂·L_momentum
+```
+Inputs: (x, y, t) collocation points
+                   │
+                   ▼
+         ┌─────────────────────┐
+         │   Neural Network f  │   5 hidden layers × 64 neurons (tanh)
+         │   parameterized by θ│
+         └─────────────────────┘
+                   │
+         ┌─────────┴──────────┐
+         ▼                    ▼
+      u(x,y,t)           v(x,y,t)          p(x,y,t)
+   (x-velocity)       (y-velocity)        (pressure)
+         │
+         ▼
+   Compute PDE Residuals via torch.autograd:
+   • r_cont  = ∂u/∂x + ∂v/∂y                      (should = 0)
+   • r_mom_x = ρ(u∂u/∂x + v∂u/∂y) + ∂p/∂x − μ∇²u  (should = 0)
+   • r_mom_y = ρ(u∂v/∂x + v∂v/∂y) + ∂p/∂y − μ∇²v  (should = 0)
+         │
+         ▼
+   L_total = L_data + 10⁻⁴·L_continuity + 10⁻⁴·L_momentum
+         │
+         ▼
+   Adam(1e-3) → L-BFGS fine-tuning
+```
+
+### 🥉 Flagship 3 — FEA Surrogate: 1,000× Speedup Neural Solver
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│          TRADITIONAL FEA vs. NEURAL SURROGATE PIPELINE            │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  TRADITIONAL: Geometry → Mesh Generation → FEM Assembly →        │
+│               Linear Solver (K·u=F) → Post-Processing            │
+│               ⏱ Time: 8–48 hours per simulation                  │
+│                                                                  │
+│  SURROGATE:   Geometry Parameters → Deep Network → Field Output  │
+│               ⏱ Time: < 50 milliseconds                          │
+│               📊 Error: < 2.5% L2 relative to FEA ground truth   │
+│               🚀 Speedup: ~1,000× faster                         │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 2. Maximal Marginal Relevance (MMR) — Diversity-Aware RAG Retrieval
+## 🛠️ Complete Technology Stack
 
-Eliminates redundant document passages during retrieval by jointly maximising query relevance and minimising inter-document similarity:
+<div align="center">
 
-```
-MMR = argmax  [  λ · Sim(dᵢ, q)  −  (1−λ) · max Sim(dᵢ, dⱼ)  ]
-       dᵢ ∈ R\S                            dⱼ ∈ S
-```
+### Core Languages & Environments
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
-Where `q` = query, `R` = candidate set, `S` = selected set, `λ` = diversity-relevance tradeoff.
+### Deep Learning & ML Frameworks
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
----
+### LLMs, Agentic & RAG Systems
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=flat-square)
 
-### 3. TF-IDF Vector Space Model — Information Retrieval Search Engine
+### Data & Vector Engineering
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square)
 
-Scoring function for document retrieval over inverted index:
+### Computer Vision & Audio
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Ultralytics](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square)
+![Whisper](https://img.shields.io/badge/Whisper%20ASR-412991?style=flat-square)
 
-```
-TF(t, d)  =  f(t,d) / Σ f(t',d)           [Term frequency normalisation]
+### Deployment & Infrastructure
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-IDF(t, D) =  log( |D| / (1 + |{d: t∈d}|) ) [Inverse document frequency]
+</div>
 
-Cosine(q, d) = Σ TF-IDF(t,q)·TF-IDF(t,d)  [Cosine vector space similarity]
-               ─────────────────────────────
-                        ||q|| · ||d||
-```
+<br/>
 
----
-
-### 4. Markowitz Mean-Variance Portfolio Optimisation
-
-Minimum variance efficient frontier optimisation:
-
-```
-Minimise:   wᵀ Σ w          [Portfolio variance]
-
-Subject to: wᵀ μ = μ_target [Target expected return constraint]
-            wᵀ 1 = 1        [Full capital deployment constraint]
-            w ≥ 0           [Long-only constraint (optional)]
-```
-
-Where `w` = asset weight vector, `Σ` = covariance matrix, `μ` = expected return vector.
-
----
-
-### 5. Backpropagation via Reverse-Mode Automatic Differentiation (micrograd)
-
-Scalar-valued autograd engine using topological sort for gradient computation:
-
-```
-Forward Pass:  Build DAG of Value nodes with operations
-Topo Sort:     Order nodes from outputs → inputs (reverse DFS)
-Backward Pass: Chain rule: ∂L/∂xᵢ = Σⱼ (∂L/∂yⱼ)·(∂yⱼ/∂xᵢ)
-```
+| Category | Frameworks & Tools |
+|:---|:---|
+| **Agentic Orchestration** | LangGraph, LangChain, Google ADK, Agno (Phidata), OpenAI Swarm |
+| **Large Language Models** | OpenAI GPT-4o, Google Gemini 2.5 Pro, LLaMA-3 8B/70B, Mistral, Qwen |
+| **LLM Fine-Tuning** | QLoRA (4-bit NF4), PEFT, TRL, BitsAndBytes, LoRA Adapter Merge, ORPO |
+| **Vector Search & RAG** | ChromaDB, FAISS, MMR Retrieval, Sentence Transformers, OpenAI Embeddings |
+| **Deep Learning** | PyTorch, PyTorch Geometric, TensorFlow 2.x, Keras, Ultralytics YOLOv8 |
+| **Physics & Simulation** | PINNs (torch.autograd), OpenFOAM CFD, CARLA Autonomous Driving Simulator |
+| **Data Science** | Pandas, NumPy, Scikit-Learn, SciPy, Matplotlib, Seaborn, XGBoost, LightGBM |
+| **Vision & Audio** | OpenCV, MTCNN, Whisper ASR, Vosk, CMU PocketSphinx |
+| **Deployment & APIs** | Docker, FastAPI, Streamlit, Uvicorn, Redis, Google Firestore |
+| **Development Tooling** | Git, Jupyter Notebooks, Python AST, Pydantic, pytest |
 
 ---
 
@@ -455,102 +609,118 @@ Backward Pass: Chain rule: ∂L/∂xᵢ = Σⱼ (∂L/∂yⱼ)·(∂yⱼ/∂xᵢ
 ```
 Data-Science-Portfolio/
 │
-├── 🤖 Generative AI/                               ← 17 Projects: GenAI, RAG, Agents, LLM Fine-tuning
-│   │
-│   ├── 01_Generative_AI_Basics/                    ← LLM chains, prompt templates, CineSage recommender
-│   ├── 02_Document_RAG_ChromaDB/                   ← PDF ingestion, chunking, MMR vector retrieval
-│   ├── 03_Custom_Tool_Calling_Agents/              ← Dynamic Python tool-binding agents
-│   ├── 04_Multi_Agent_Research_System/             ← 4-agent Search→Read→Write→Critic swarm
-│   ├── 05_AI_Video_Assistant_RAG/                  ← Whisper ASR + FAISS transcript semantic search
-│   ├── 06_LangGraph_Agentic_Workflows/             ← Cyclic stateful graphs + human-in-the-loop nodes
-│   │
+├── 🤖 Generative AI/                            # 17 GenAI, LLM & Agentic Projects
 │   ├── Agentic_AI_Projects/
-│   │   ├── MangoOS/                                ← LangGraph Agentic AI Operating System
-│   │   ├── Self_Extending_Agent/                   ← Runtime self-skill generation (Google ADK)
-│   │   ├── Financial_Analysis_Agent_Crew/          ← Multi-agent stock analysis swarm (Agno)
-│   │   ├── Self_Correcting_Data_Validation_Agent/  ← Self-healing schema drift detection
-│   │   └── AI_Test_Case_Generator/                 ← Automated QA test suite generation
+│   │   ├── MangoOS/                             # Self-hosted Agentic OS (LangGraph + Docker)
+│   │   ├── Self_Extending_Agent/                # Runtime tool synthesis (Google ADK + Gemini)
+│   │   ├── Financial_Analysis_Agent_Crew/       # Multi-agent financial intelligence (Agno)
+│   │   ├── Self_Correcting_Data_Validation_Agent/ # Self-healing data pipeline (LangChain)
+│   │   └── AI_Test_Case_Generator/              # Automated QA agent (GPT-4o + AST parser)
 │   │
 │   ├── LLM_Projects/
-│   │   ├── Fine_Tuned_Domain_Chatbot/              ← LLaMA-3 QLoRA 4-bit instruction tuning
-│   │   ├── Guardrail_Moderation_API/               ← PII/injection/toxicity API interceptor
-│   │   └── Real_Time_Video_Summarizer/             ← Text-to-video synthesis pipeline
+│   │   ├── Fine_Tuned_Domain_Chatbot/           # LLaMA-3 + QLoRA + ORPO alignment
+│   │   ├── Guardrail_Moderation_API/            # Safety gateway API (FastAPI + Transformers)
+│   │   └── Real_Time_Video_Summarizer/          # Text-to-video pipeline (Diffusers)
 │   │
-│   └── RAG_Projects/
-│       ├── Advanced_Multi_Source_RAG/              ← Hybrid local+web RAG routing system
-│       ├── Chat_With_Codebase/                     ← Codebase-level GPT-4o multi-agent dev assistant
-│       └── Multimodal_Product_Assistant/           ← MedGemma image+text clinical diagnostics
-│
-├── 🧠 AI, ML, & DL/                               ← 11 Projects: CV, Physics AI, DL Engineering
+│   ├── RAG_Projects/
+│   │   ├── Advanced_Multi_Source_RAG/           # Hybrid vector + live web RAG (ChromaDB + Tavily)
+│   │   ├── Chat_With_Codebase/                  # Codebase AI assistant (OpenAI Swarm)
+│   │   └── Multimodal_Product_Assistant/        # Vision + language diagnostic AI (MedGemma)
 │   │
-│   ├── Autonomous_Vehicle_Simulation/              ← CARLA lane segmentation + PID/MPC steering
-│   ├── Deep_Learning_Framework_Scratch/            ← Custom scalar autograd engine (micrograd)
-│   ├── Deepfake_Detection/                         ← EfficientNet + MTCNN deepfake classifier
-│   ├── Defect_Detection_Gear_Bearing/              ← Vibration signal CNN fault diagnosis
-│   ├── FEA_Surrogate_Modeling/                     ← DNN FEA solver surrogate (1000x speedup)
-│   ├── Generative_Art_GANs/                        ← DCGAN CelebA & MNIST adversarial synthesis
-│   ├── Masked_Language_Model_NLP/                  ← BERT masked token prediction fine-tuning
-│   ├── PINN_Laminar_Flow/                          ← Navier-Stokes PDE-constrained neural network
-│   ├── Reinforcement_Learning_Trading/             ← PPO/DQN Gymnasium stock trading agent
-│   ├── Speech_to_Text_Transcription/               ← Multi-engine ASR (Vosk, Whisper, CMU)
-│   ├── Vector_DB_From_Scratch/                     ← NumPy cosine similarity vector database
-│   └── YOLO_Object_Detection/                      ← YOLOv8 real-time 60+ FPS object tracking
+│   ├── 01_Generative_AI_Basics/                # LLM chains & CineSage recommender
+│   ├── 02_Document_RAG_ChromaDB/               # PDF ingestion + MMR retrieval
+│   ├── 03_Custom_Tool_Calling_Agents/          # Dynamic tool binding agents
+│   ├── 04_Multi_Agent_Research_System/         # 4-agent swarm (Search/Read/Write/Critic)
+│   ├── 05_AI_Video_Assistant_RAG/              # Whisper + FAISS transcript search
+│   └── 06_LangGraph_Agentic_Workflows/         # Stateful cyclic agent graphs
 │
-├── 📊 Data Science/                                ← 4 Projects: Statistical ML, Engineering Analytics
-│   │
-│   ├── CFD_Surrogate_Modeling/                     ← ConvLSTM OpenFOAM shockwave field predictor
-│   ├── Predictive_Maintenance_IoT/                 ← C-MAPSS turbofan RUL estimation pipeline
-│   ├── financial_analysis_python/                  ← Markowitz MVE frontier & Sharpe ratio analytics
-│   └── Search_Engine_From_Scratch/                 ← TF-IDF inverted index information retrieval engine
+├── 🧠 AI, ML, & DL/                            # 11 Deep Learning & Physics AI Projects
+│   ├── Autonomous_Vehicle_Simulation/           # CARLA self-driving stack (CV + PID/MPC)
+│   ├── Deep_Learning_Framework_Scratch/         # Micrograd scalar autograd engine
+│   ├── Deepfake_Detection/                      # EfficientNet-B4 forgery classifier
+│   ├── Defect Detection in Gear & Bearing/      # CNN vibration fault diagnosis
+│   ├── FEA_Surrogate_Modeling/                  # DNN FEA surrogate (1,000× speedup)
+│   ├── Generative_Art_GANs/                     # DCGAN on CelebA & MNIST
+│   ├── Masked_Language_Model_NLP/               # BERT masked token prediction
+│   ├── PINN_Laminar_Flow/                       # Navier-Stokes PINN solver
+│   ├── Reinforcement_Learning_Trading/          # PPO/DQN Gymnasium trading agent
+│   ├── Speech_to_Text_Transcription/            # Multi-engine ASR (Vosk + Whisper)
+│   ├── Vector_DB_From_Scratch/                  # Pure Python cosine similarity vector store
+│   └── YOLO_Object_Detection/                   # Real-time 60+ FPS object tracking
 │
-├── LICENSE                                         ← MIT License
-└── README.md                                       ← This master portfolio document
+├── 📊 Data Science/                             # 4 Data Science & Engineering Projects
+│   ├── CFD_Surrogate_Modeling/                  # ConvLSTM OpenFOAM fluid surrogate
+│   ├── Predictive_Maintenance_IoT/              # C-MAPSS turbofan RUL estimation
+│   ├── Search_Engine_From_Scratch/              # Inverted-index TF-IDF search engine
+│   └── financial_analysis_python/               # Markowitz portfolio optimization
+│
+├── LICENSE                                      # MIT Open-Source License
+└── README.md                                    # ← You Are Here
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-### Step 1 — Clone the Portfolio
+### Prerequisites
+
 ```bash
+# Python 3.10 or higher required
+python --version
+
+# Core ML dependencies
+pip install torch torchvision torchaudio
+pip install tensorflow keras
+pip install langchain langgraph chromadb faiss-cpu
+pip install ultralytics opencv-python
+pip install pandas numpy scikit-learn matplotlib
+pip install streamlit fastapi uvicorn
+```
+
+### Clone & Explore
+
+```bash
+# Clone the portfolio
 git clone https://github.com/Omgiri01/Data-Science-Portfolio.git
 cd Data-Science-Portfolio
 ```
 
-### Step 2 — Install Python Dependencies for Any Project
-Each project folder is self-contained with its own `requirements.txt`:
-```bash
-pip install -r "Generative AI/02_Document_RAG_ChromaDB/requirements.txt"
-```
+### Run Example Projects
 
-### Step 3 — Launch a Streamlit Dashboard
 ```bash
-streamlit run "Generative AI/04_Multi_Agent_Research_System/app.py"
-```
+# 🤖 Launch a Streamlit RAG application
+cd "Generative AI/02_Document_RAG_ChromaDB"
+pip install -r requirements.txt
+streamlit run app.py
 
-### Step 4 — Run a Standalone Script / Benchmark
-```bash
-python "AI, ML, & DL/Vector_DB_From_Scratch/demo.py"
-python "Data Science/Search_Engine_From_Scratch/main.py"
-```
+# 🧠 Run real-time YOLO object detection
+cd "AI, ML, & DL/YOLO_Object_Detection"
+pip install ultralytics
+python test.py
 
-### Step 5 — Run a Jupyter Notebook
-```bash
-jupyter notebook "AI, ML, & DL/Deepfake_Detection/notebooks/"
+# 📊 Run predictive maintenance analytics
+cd "Data Science/Predictive_Maintenance_IoT"
+pip install -r requirements.txt
+jupyter notebook
+
+# 🌊 Train the PINN fluid solver
+cd "AI, ML, & DL/PINN_Laminar_Flow"
+pip install torch matplotlib scipy
+python train.py
 ```
 
 ---
 
-## 👤 Author
+## 👤 Author & Contact
 
 <div align="center">
 
 ### Om Giri
 
-*AI & Machine Learning Engineer — specialising in Agentic Systems, Physics-Informed Deep Learning, and Scientific ML*
+*AI & Machine Learning Engineer · Physics-Informed Computing · Multi-Agent Systems*
 
-[![GitHub](https://img.shields.io/badge/GitHub-@Omgiri01-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omgiri01)
-[![Portfolio](https://img.shields.io/badge/Repository-Data--Science--Portfolio-10B981?style=for-the-badge&logo=git&logoColor=white)](https://github.com/Omgiri01/Data-Science-Portfolio)
+[![GitHub](https://img.shields.io/badge/GitHub-Omgiri01-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omgiri01)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Data--Science--Portfolio-10B981?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/Omgiri01/Data-Science-Portfolio)
 
 </div>
 
@@ -558,13 +728,14 @@ jupyter notebook "AI, ML, & DL/Deepfake_Detection/notebooks/"
 
 ## 📄 License
 
-This repository is released under the [MIT License](LICENSE).  
-© 2026 Om Giri — All Rights Reserved.
+This repository is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
 
-*If you found this portfolio valuable, consider giving it a ⭐ on [GitHub](https://github.com/Omgiri01/Data-Science-Portfolio)!*
+*Built with 🔬 mathematical rigor · ⚙️ engineering discipline · 🤖 frontier AI tools*
+
+**⭐ Star this repository if you find it useful!**
 
 </div>
