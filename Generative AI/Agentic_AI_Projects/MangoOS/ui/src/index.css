@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #08090b;
+  --color-bg-surface: #111318;
+  --color-bg-elevated: #1a1d26;
+  --color-bg-overlay: #212432;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9fa6b2;
+  --color-text-muted: #64748b;
+
+  --color-accent-primary: #6366f1;
+  --color-accent-glow: #818cf8;
+  --color-accent-green: #22c55e;
+  --color-accent-red: #ef4444;
+  --color-accent-yellow: #eab308;
+  --color-accent-cyan: #06b6d4;
+  --color-accent-orange: #f97316;
+
+  --color-border: rgba(99, 102, 241, 0.15);
+  --color-border-hover: rgba(99, 102, 241, 0.4);
+  --color-glass: rgba(17, 19, 24, 0.7);
+
+  --font-sans: "Inter", "system-ui", "sans-serif";
+  --font-mono: "JetBrains Mono", "Fira Code", "monospace";
+
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.6);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-base text-text-primary font-sans antialiased overflow-hidden;
+  }
+  html { scroll-behavior: smooth; }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-bg-surface; }
+  ::-webkit-scrollbar-thumb { @apply bg-accent-primary rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-accent-glow; }
+}
+
+@layer components {
+  .logo-dot {
+    @apply w-2.5 h-2.5 rounded-full bg-accent-primary shadow-glow animate-[pulse_2s_ease-in-out_infinite];
+  }
+  .glass-panel {
+    @apply bg-glass backdrop-blur-[20px] border border-border;
+  }
+  .btn-primary {
+    @apply px-4 py-2 bg-accent-primary text-white rounded-md font-medium transition-all hover:bg-accent-glow hover:scale-105 active:scale-95 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-outline {
+    @apply px-4 py-2 bg-transparent text-text-primary border border-text-muted rounded-md font-medium transition-all hover:border-accent-primary hover:text-accent-primary;
+  }
+  .input-field {
+    @apply w-full bg-bg-overlay border border-border rounded-md px-3 py-2 text-text-primary font-sans focus:outline-none focus:border-accent-primary focus:shadow-glow transition-all;
+  }
+  .card-border {
+    @apply border border-border rounded-lg bg-bg-surface hover:border-border-hover hover:shadow-card transition-all;
+  }
+}

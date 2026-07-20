@@ -1,0 +1,87 @@
+{
+  "doc1": {
+    "vector": [
+      0.2808656692504883,
+      0.10702060908079147,
+      -0.4722515046596527,
+      0.5880966782569885,
+      -0.16065019369125366,
+      0.18881498277187347,
+      0.1100790947675705,
+      -0.5169186592102051
+    ],
+    "metadata": {
+      "text": "Deep learning is a subset of machine learning.",
+      "category": "AI",
+      "author": "Alice"
+    }
+  },
+  "doc2": {
+    "vector": [
+      0.02879980020225048,
+      0.1287565529346466,
+      0.36759355664253235,
+      0.4453429877758026,
+      -0.6703657507896423,
+      0.15324683487415314,
+      0.41846296191215515,
+      -0.03392401710152626
+    ],
+    "metadata": {
+      "text": "Stock market trading relies on advanced statistical forecasting.",
+      "category": "Finance",
+      "author": "Bob"
+    }
+  },
+  "doc3": {
+    "vector": [
+      -0.022638697177171707,
+      0.4480441212654114,
+      -0.26690760254859924,
+      0.07965289056301117,
+      -0.531892716884613,
+      -0.10870150476694107,
+      -0.15645790100097656,
+      -0.6339990496635437
+    ],
+    "metadata": {
+      "text": "Reinforcement learning trains agents through reward systems.",
+      "category": "AI",
+      "author": "Charlie"
+    }
+  },
+  "doc4": {
+    "vector": [
+      0.16942843794822693,
+      0.6283957362174988,
+      0.35933035612106323,
+      0.05146520212292671,
+      0.08712435513734818,
+      0.563309371471405,
+      0.3184255063533783,
+      0.13543590903282166
+    ],
+    "metadata": {
+      "text": "Quantitative finance uses mathematical models to price derivatives.",
+      "category": "Finance",
+      "author": "Alice"
+    }
+  },
+  "doc5": {
+    "vector": [
+      -0.37129661440849304,
+      -0.7616641521453857,
+      0.21556229889392853,
+      -0.33225345611572266,
+      0.10693298280239105,
+      -0.09138821065425873,
+      -0.3020821809768677,
+      -0.11877258867025375
+    ],
+    "metadata": {
+      "text": "Large Language Models are changing how we do research.",
+      "category": "AI",
+      "author": "Bob"
+    }
+  }
+}

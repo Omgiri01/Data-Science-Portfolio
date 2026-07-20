@@ -1,0 +1,7 @@
+h5py>=2.8.0
+keras>=2.2.0
+matplotlib>=2.2.0
+meshio>=2.0.0
+numpy>=1.15.0
+tqdm>=4.0.0
+tensorflow>=1.10.0

@@ -1,0 +1,127 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+* $py.class
+
+# Large Datasets, databases, and logs
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+*.mat
+*.npz
+*.npy
+*.pdf
+data/
+datasets/
+**/data/
+**/datasets/
+models/*.pt
+models/*.pth
+models/*.h5
+models/*.bin
+models/*.pkl
+*.pt
+*.pth
+*.h5
+*.bin
+*.pkl
+*.onnx
+
+# Specific heavy folders in subprojects
+**/Defect Detection in Gear & Bearing/data/
+**/Defect Detection in Gear & Bearing/models/
+**/Speech_to_Text_Transcription/speech_recognition/pocketsphinx-data/
+**/Speech_to_Text_Transcription/third-party/
+**/Autonomous_Vehicle_Simulation/data/
+**/Autonomous_Vehicle_Simulation/book/CameraCalibration/images/
+**/Autonomous_Vehicle_Simulation/book/LaneDetection/tikz/
+
+# Archive/Compressed files
+*.zip
+*.tar.gz
+*.tar.xz
+*.xz
+*.gz
+*.rar
+*.7z
+
+# Audio/Video formats
+*.mp4
+*.avi
+*.mov
+*.gif
+*.wav
+*.mp3
+*.flac
+
+# Specific large binary files
+*.dict
+mdef
+sendump
+flac-linux-x86_64
+flac-linux-x86
+*.exe
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nosenv
+.chrome
+.nox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE config
+.idea/
+.vscode/
+*.swp
+*.swo

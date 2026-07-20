@@ -1,0 +1,12 @@
+__pycache__
+venv
+.vscode
+dist
+.ipynbcheckpoints
+render_logs
+
+my_example.py
+.pypirc
+*.egg-info
+*.pkl
+*.ai
