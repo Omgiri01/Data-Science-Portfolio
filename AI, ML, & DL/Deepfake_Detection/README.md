@@ -6,16 +6,16 @@
 [![Python 3](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-2.2+-D00000?logo=keras)](https://keras.io/)
-[![GitHub stars](https://img.shields.io/github/stars/aaronchong888/DeepFake-Detect?style=social)](https://github.com/aaronchong888/DeepFake-Detect/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/aaronchong888/DeepFake-Detect?style=social)](https://github.com/aaronchong888/DeepFake-Detect/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Omgiri01/Data-Science-Portfolio?style=social)](https://github.com/Omgiri01/Data-Science-Portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Omgiri01/Data-Science-Portfolio?style=social)](https://github.com/Omgiri01/Data-Science-Portfolio/network/members)
 
 <p align="center">
-  <a href="https://deepfake-detect.com/"><img src="img/dfdetect-home.png" alt="DF-Detect deepfake detection web app homepage" width="70%" /></a>
+  <img src="img/dfdetect-home.png" alt="DF-Detect deepfake detection web app homepage" width="70%" />
 </p>
 
 **Open-source deepfake detection & face forgery detection — train your own model with TensorFlow, Keras & EfficientNet**
 
-[**Live Demo**](https://deepfake-detect.com/) · [Report Bug](https://github.com/aaronchong888/DeepFake-Detect/issues) · [Request Feature](https://github.com/aaronchong888/DeepFake-Detect/issues)
+[Report Bug](https://github.com/Omgiri01/Data-Science-Portfolio/issues) · [Request Feature](https://github.com/Omgiri01/Data-Science-Portfolio/issues)
 
 </div>
 
@@ -63,8 +63,8 @@
 
 ```bash
 # Clone and install dependencies
-git clone https://github.com/aaronchong888/DeepFake-Detect.git
-cd DeepFake-Detect
+git clone https://github.com/Omgiri01/Data-Science-Portfolio.git
+cd Data-Science-Portfolio
 pip install -r requirements.txt
 
 # Run the full pipeline (after placing your dataset videos as expected by the scripts)
@@ -179,43 +179,16 @@ The default model is trained on ~20 methods across FaceForensics++, Celeb-DF, DF
 
 ---
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=aaronchong888/DeepFake-Detect&type=Date)](https://star-history.com/#aaronchong888/DeepFake-Detect&Date)
-
----
-
 ## Contributing
 
-Contributions are welcome. Please open an [issue](https://github.com/aaronchong888/DeepFake-Detect/issues) or submit a [pull request](https://github.com/aaronchong888/DeepFake-Detect/pulls).
-
----
-
-## Citing
-
-If you use DeepFake-Detect in research or a project, please cite:
-
-```bibtex
-@software{deepfake_detect,
-  title = {DeepFake-Detect: Open-Source Deepfake Detection Pipeline},
-  author = {Chong, Aaron and Ng, See Long Hugo},
-  year = {2020},
-  url = {https://github.com/aaronchong888/DeepFake-Detect},
-  note = {Train deepfake detection models with TensorFlow, Keras \& EfficientNet}
-}
-```
+Contributions are welcome. Please open an [issue](https://github.com/Omgiri01/Data-Science-Portfolio/issues) or submit a [pull request](https://github.com/Omgiri01/Data-Science-Portfolio/pulls).
 
 ---
 
 ## Authors & License
 
-- **[Aaron Chong](https://github.com/aaronchong888)** — *Initial work & Maintenance*
-- **[Hugo Ng](https://github.com/hugoclong)** — *Initial work*
+- **[Om Giri](https://github.com/Omgiri01)** — *Project Design & Implementation*
 
-See [contributors](https://github.com/aaronchong888/DeepFake-Detect/contributors) for the full list.
-
-**License:** [MIT](LICENSE).
-
-**Acknowledgments:** Dependencies are listed in the [dependency graph](https://github.com/aaronchong888/DeepFake-Detect/network/dependencies).
+See [LICENSE](LICENSE) for details. (MIT License)
 
 

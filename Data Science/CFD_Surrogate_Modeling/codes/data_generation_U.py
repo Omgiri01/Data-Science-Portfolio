@@ -44,7 +44,7 @@ def all_U(serial):
         ims.append([im])
 
     ani = animation.ArtistAnimation(fig, ims, interval=50)
-    ani.save("simulation_data/" + serial + "/velocity_simulation.mp4", metadata={'Title': 'U_' + serial, 'Artist': "Afzal Hussain"})
+    ani.save("simulation_data/" + serial + "/velocity_simulation.mp4", metadata={'Title': 'U_' + serial, 'Artist': "Om Giri"})
     plt.close()
 
     return sim_matrix

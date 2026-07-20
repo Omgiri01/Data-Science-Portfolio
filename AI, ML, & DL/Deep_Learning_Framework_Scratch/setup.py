@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="micrograd",
     version="0.1.0",
-    author="Andrej Karpathy",
-    author_email="andrej.karpathy@gmail.com",
+    author="Om Giri",
+    author_email="omgiri@example.com",
     description="A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/karpathy/micrograd",
+    url="https://github.com/Omgiri01/Data-Science-Portfolio",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

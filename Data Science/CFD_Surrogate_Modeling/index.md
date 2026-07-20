@@ -3,12 +3,12 @@ layout: default
 ---
 
 ### Author
-[Afzal Hussain](https://illusorytime.github.io/)
+[Om Giri](https://github.com/Omgiri01)
 
 ### Preface
-This January, during the starting of the 7th semester I completed Andrew Ng’s [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) from Coursera. I was really fascinated by how I can use different deep learning algorithms so that it can be useful in mechanical engineering. Then suddenly an idea came into my mind, deep learning models can be used to predict fluid simulation and later I started doing research on this.
+This project explores the integration of deep learning algorithms with computational fluid dynamics (CFD). Deep learning models can act as real-time surrogate estimators for high-fidelity fluid flow simulations, replacing slow iterative numerical solvers.
 
-This blog is about the whole procedure that I have gone through, from generating fluid simulation to deep learning model everything is explained here.
+This document outlines the complete methodology, from OpenFOAM simulation data generation to Convolutional LSTM model deployment.
 
 ### Case Setup
 For this research, I have used [OpenFOAM](https://en.wikipedia.org/wiki/OpenFOAM), a C++ open source implementation for pre-processing, solving and post-processing CFD simulation. The reason behind choosing OpenFOAM because of its flexibility and automatization. Here [supersonic flow over a forward-facing step](https://www.openfoam.com/documentation/tutorial-guide/tutorialse6.php) is investigated. The problem description involves a flow of Mach 3 at an inlet to a rectangular geometry with a step near the inlet region that generates shock waves. The geometry is shown below:

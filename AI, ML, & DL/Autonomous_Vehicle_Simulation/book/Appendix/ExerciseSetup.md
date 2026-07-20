@@ -4,11 +4,11 @@ You can work on the exercises on your local machine, or in the cloud using Googl
 
 ## Downloading the exercises
 
-If you know how [git](https://git-scm.com/) works, please clone this [book's github repo](https://github.com/thomasfermi/Algorithms-for-Automated-Driving).
+If you know how [git](https://git-scm.com/) works, please clone this repository.
 ```bash
-git clone https://github.com/thomasfermi/Algorithms-for-Automated-Driving.git
+git clone https://github.com/Omgiri01/Data-Science-Portfolio.git
 ```
-Otherwise visit this [book's github repo](https://github.com/thomasfermi/Algorithms-for-Automated-Driving) and click on the green button that says "Code". In the pop-up menu, please select "Download zip". Extract the zip to a directory of your choice.
+Otherwise visit the repository on GitHub and click on "Code" -> "Download ZIP".
 
 ````{tab} Local installation
 Nothing more to do.
@@ -79,4 +79,4 @@ Open [Google Drive](https://drive.google.com/drive/my-drive) and navigate to the
 ````
 
 ## Getting help
-If you have a question about the exercises, feel free to ask it on  [github discussions](https://github.com/thomasfermi/Algorithms-for-Automated-Driving/discussions) or on the [discord server](https://discord.gg/57YEzkCFHN). 
+If you have a question about the exercises, feel free to check out the repository on [GitHub](https://github.com/Omgiri01/Data-Science-Portfolio). 

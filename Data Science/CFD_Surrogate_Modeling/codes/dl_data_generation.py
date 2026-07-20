@@ -47,7 +47,7 @@ def extract_simulation_data(serial=None):
         if entity != 'U':  # Velocity animation was generated previously
             ani = animation.ArtistAnimation(fig, ims, interval=50)
             ani.save('simulation_data/' + serial + '/' + entity + '_simulation.mp4',
-                     metadata={'Title': entity + '_' + serial, 'Artist': 'Afzal Hussain'})
+                     metadata={'Title': entity + '_' + serial, 'Artist': 'Om Giri'})
             plt.close()
 
     return data

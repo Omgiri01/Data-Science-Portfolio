@@ -16,7 +16,7 @@ Collecting altair!=5.4.0,!=5.4.1,<6,>=4.0
   Downloading altair-5.5.0-py3-none-any.whl (731 kB)
 Collecting click<9,>=7.0
   Using cached click-8.1.8-py3-none-any.whl (98 kB)
-Requirement already satisfied: packaging<26,>=20 in /Users/simranjeetsingh1497/Library/Python/3.9/lib/python/site-packages (from streamlit) (21.3)
+Requirement already satisfied: packaging<26,>=20 in /Users/omgiri/Library/Python/3.9/lib/python/site-packages (from streamlit) (21.3)
 Collecting toml<2,>=0.10.1
   Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
 Collecting typing-extensions<5,>=4.4.0
