@@ -116,7 +116,8 @@ def create_request_builder(
         raise ValueError("``key`` must be ``None`` or a string")
 
     if key is None:
-        key = "AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+        import os
+        key = os.environ.get("GOOGLE_API_KEY", "")
     return RequestBuilder(
         endpoint=endpoint,
         key=key,
